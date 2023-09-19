@@ -23,7 +23,7 @@ import math
 #loaded_model = pickle.load(open('./model.pkl', 'rb'))
 
 
-LOGO_IMAGE = "./health-katon-color.png"
+LOGO_IMAGE = "./health-katon-white.png"
 #Disable Warning
 st.set_option('deprecation.showPyplotGlobalUse', False)
 #Set Size
@@ -41,7 +41,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<h1 style='text-align: center; color: #243A74; font-family:sans-serif'>Health Guard : Analysis and Identification</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #FFFFFF; font-family:sans-serif'>Health Guard : Analysis and Identification</h1>", unsafe_allow_html=True)
 menu = st.sidebar.selectbox("Select Menu", ("Dashboard", "Prediksi","Kluster"))
 st.sidebar.image("./logo.png", width=70)
 if menu == "Dashboard":
