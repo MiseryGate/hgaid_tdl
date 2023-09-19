@@ -19,7 +19,7 @@ import pickle
 import math
 
 #Baca Data
-data = pd.read_csv("./fkrtl_reguler.csv")
+#data = pd.read_csv("./fkrtl_reguler.csv")
 #loaded_model = pickle.load(open('./model.pkl', 'rb'))
 
 
@@ -60,4 +60,4 @@ if menu == "Dashboard":
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 if menu == "Prediksi":
     st.write("Menu Prediksi")
-    st.write(data.head(2))
+    #st.write(data.head(2))
