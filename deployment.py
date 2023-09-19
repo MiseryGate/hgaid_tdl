@@ -41,7 +41,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<h1 style='text-align: center; color: #FFFFFF; font-family:sans-serif'>Health Guard : Analysis and Identification</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #FFFFFF; font-family:sans-serif'>HGAID</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #FFFFFF; font-family:sans-serif'>Health Guard : Analysis and Identification</h2>", unsafe_allow_html=True)
 menu = st.sidebar.selectbox("Select Menu", ("Dashboard", "Prediksi","Kluster"))
 st.sidebar.image("./logo.png", width=70)
 if menu == "Dashboard":
